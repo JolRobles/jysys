@@ -79,8 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'jysys',
-        'USER': 'postgres',
-        'PASSWORD': 'root', #Yorch
+        # 'USER': 'postgres',
+        'USER': 'superadmin',
+        # 'PASSWORD': 'root', #Yorch
+        'PASSWORD': 'Sa123456', #Yorch
         'HOST': 'localhost',
         'PORT': 5432,
     }
